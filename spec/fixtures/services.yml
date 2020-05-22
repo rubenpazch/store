@@ -1,0 +1,16 @@
+one:
+  id: 1
+  name: 'Restaurantes'
+  active: true
+two:
+  id: 2
+  name: 'varios'
+  active: true
+three:
+  id: 3
+  name: 'Pizzas'
+  active: false
+four:
+  id: 4
+  name: 'Tiendas'
+  active: false

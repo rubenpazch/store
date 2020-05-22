@@ -1,0 +1,14 @@
+one: 
+  id: 1 
+  name: "Los Angelitos"
+  category_id: 1
+
+two: 
+  id: 2
+  name: "Los Diablitos"
+  category_id: 1
+
+three: 
+  id: 3
+  name: "Los Intermedios"
+  category_id: 2

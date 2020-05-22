@@ -1,0 +1,9 @@
+one: 
+  email: "email1@correo.com"
+  encrypted_password: "abcdefghij"
+two: 
+  email: "email2@correo.com"
+  encrypted_password: "abcdefghij"
+three: 
+  email: "email3@correo.com"
+  encrypted_password: "abcdefghij"

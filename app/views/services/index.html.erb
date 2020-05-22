@@ -1,0 +1,12 @@
+<h1>Services</h1>
+
+<%= link_to "new service", new_service_path %>
+
+<ul id="services">
+    <% @service.each do |s| %>
+    <li><%= s.name %> <%= link_to "show", service_path(s) %> | <%= link_to "edit", edit_service_path(s) %> | <%= link_to "destroy", service_path(s), method: :delete, data: {confirm: '¿Estas seguro?'} %></li>
+    <% end %>
+</ul>
+
+
+
