@@ -16365,3 +16365,1038 @@ Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 9055)
 
 DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
  (called from load at /home/ruben/.rbenv/versions/2.6.5/bin/rake:23)
+Started GET "/services" for ::1 at 2020-05-21 21:32:49 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ServicesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.9ms | Allocations: 3996)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-21 21:32:49 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 2.2ms | Allocations: 692)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 9.8ms | Allocations: 3341)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 20.5ms | Allocations: 754)
+  Rendered layouts/_errors.html.erb (Duration: 0.3ms | Allocations: 138)
+Completed 200 OK in 82ms (Views: 70.6ms | ActiveRecord: 0.0ms | Allocations: 29859)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-21 21:40:36 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 652)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 75.6ms | Allocations: 184947)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 1.7ms | Allocations: 754)
+  Rendered layouts/_errors.html.erb (Duration: 0.9ms | Allocations: 134)
+Completed 200 OK in 121ms (Views: 109.7ms | ActiveRecord: 0.5ms | Allocations: 215178)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-21 21:40:37 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1076)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.4ms | Allocations: 333)
+  Rendered layouts/_errors.html.erb (Duration: 0.0ms | Allocations: 21)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 9160)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-21 21:40:37 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1066)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 3.7ms | Allocations: 325)
+  Rendered layouts/_errors.html.erb (Duration: 0.2ms | Allocations: 21)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms | Allocations: 9113)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-21 21:40:37 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1066)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.8ms | Allocations: 325)
+  Rendered layouts/_errors.html.erb (Duration: 0.0ms | Allocations: 21)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 9121)
+
+
+Started GET "/" for ::1 at 2020-05-21 21:40:39 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 87)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.4ms | Allocations: 345)
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 8600)
+
+
+Started GET "/" for ::1 at 2020-05-21 21:40:41 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.5ms | Allocations: 335)
+  Rendered layouts/_errors.html.erb (Duration: 0.0ms | Allocations: 21)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 7831)
+
+
+Started GET "/" for ::1 at 2020-05-21 21:40:41 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.7ms | Allocations: 335)
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 7839)
+
+
+Started GET "/" for ::1 at 2020-05-21 21:40:41 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.7ms | Allocations: 335)
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 7817)
+
+
+Started GET "/services/new" for ::1 at 2020-05-21 21:40:51 -0500
+Processing by ServicesController#new as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 436)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-21 21:40:51 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1076)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 333)
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 25)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 9189)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-05-21 21:40:56 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"0zIVon084mpzBcYC1OtDq6JJ2STYc89YS44rX0GaQ509HmU/h2iHsmFxOPz2fz9AEixJCYejuM1R1nOEgtlFXg==", "user"=>{"email"=>"ramon@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "ramon@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.3ms | Allocations: 2655)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"0zIVon084mpzBcYC1OtDq6JJ2STYc89YS44rX0GaQ509HmU/h2iHsmFxOPz2fz9AEixJCYejuM1R1nOEgtlFXg==", "user"=>{"email"=>"ramon@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1068)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.5ms | Allocations: 325)
+  Rendered layouts/_errors.html.erb (Duration: 0.0ms | Allocations: 12)
+Completed 200 OK in 118ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 9532)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-21 21:41:01 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 124)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1863)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.5ms | Allocations: 333)
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 10547)
+
+
+Started POST "/users" for ::1 at 2020-05-21 21:41:07 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"PQWdxQljX+3xi/ehuB0UB8x9uaqbwtIXIBNv7edSnXtdfj4XBUUlFgxYL9S2tIqzd7Qs7WPkeVWQ5w7qTmY+tQ==", "user"=>{"email"=>"ramon@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "ramon@gmail.com"], ["LIMIT", 1]]
+  [1m[36mCACHE User Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "ramon@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "ramon@gmail.com"], ["encrypted_password", "$2a$11$tluZftNjsG.bH5cMFMTY..9aTgrRFqwjVKouEBj7GRZ9qoWwYR8.G"], ["created_at", "2020-05-22 02:41:07.652571"], ["updated_at", "2020-05-22 02:41:07.652571"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/services/new
+Completed 302 Found in 129ms (ActiveRecord: 3.5ms | Allocations: 13326)
+
+
+Started GET "/services/new" for ::1 at 2020-05-21 21:41:07 -0500
+Processing by ServicesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering services/new.html.erb within layouts/application
+  Rendered services/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 675)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.5ms | Allocations: 331)
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 25)
+Completed 200 OK in 20ms (Views: 10.7ms | ActiveRecord: 0.7ms | Allocations: 15796)
+
+
+Started GET "/services/new" for ::1 at 2020-05-21 21:41:11 -0500
+Processing by ServicesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering services/new.html.erb within layouts/application
+  Rendered services/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 402)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.6ms | Allocations: 326)
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 18ms (Views: 14.8ms | ActiveRecord: 0.2ms | Allocations: 9660)
+
+
+Started POST "/services" for ::1 at 2020-05-21 21:41:16 -0500
+Processing by ServicesController#create as JS
+  Parameters: {"authenticity_token"=>"IKXMYgCpky6W6P0rTMbBZjI7+oYf5G789aCokxF72Xl+AtVJavFgCpKZ9U5Y8NVHXwMX9h/sgZBEWEvMgs1R5g==", "service"=>{"name"=>"Restaurantes"}, "commit"=>"Guardar"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/services_controller.rb:14:in `create'
+  [1m[36mService Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "services" WHERE "services"."name" = ? LIMIT ?[0m  [["name", "Restaurantes"], ["LIMIT", 1]]
+  ↳ app/controllers/services_controller.rb:14:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/services_controller.rb:14:in `create'
+Redirected to http://localhost:3000/services
+Completed 200 OK in 8ms (ActiveRecord: 0.5ms | Allocations: 5365)
+
+
+Started GET "/services" for ::1 at 2020-05-21 21:41:16 -0500
+Processing by ServicesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering services/index.html.erb within layouts/application
+  [1m[36mService Load (0.2ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/services/index.html.erb:6
+  Rendered services/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1801)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 330)
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 19ms (Views: 13.2ms | ActiveRecord: 0.4ms | Allocations: 11203)
+
+
+Started GET "/services" for ::1 at 2020-05-21 21:41:22 -0500
+Processing by ServicesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering services/index.html.erb within layouts/application
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/services/index.html.erb:6
+  Rendered services/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1548)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.6ms | Allocations: 326)
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 18ms (Views: 14.4ms | ActiveRecord: 0.4ms | Allocations: 10794)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/ruben/.rbenv/versions/2.6.5/bin/rake:23)
+Started GET "/services" for ::1 at 2020-05-21 21:43:52 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ServicesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering services/index.html.erb within layouts/application
+  [1m[36mService Load (0.2ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/services/index.html.erb:6
+  Rendered services/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 5128)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 312.5ms | Allocations: 182003)
+Completed 500 Internal Server Error in 339ms (ActiveRecord: 1.5ms | Allocations: 204847)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_categorie_path' for #<#<Class:0x00007fa9bc76cc40>:0x00007fa9bc77b308>
+Did you mean?  new_category_path):
+    25:           Categorias
+    26:         </a>
+    27:         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    28:           <%= link_to "Crear", new_categorie_path, class: "dropdown-item" %>
+    29:           <!--<a class="dropdown-item" href="#">Crear</a>-->
+    30:           <%= link_to "Listar", categories_path, class: "dropdown-item" %>
+    31:           <!--<a class="dropdown-item" href="#">Listar</a>-->                   
+  
+app/views/layouts/_nav_bar.html.erb:28
+app/views/layouts/application.html.erb:14
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/ruben/.rbenv/versions/2.6.5/bin/rake:23)
+Started GET "/services" for ::1 at 2020-05-21 21:44:16 -0500
+Processing by ServicesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering services/index.html.erb within layouts/application
+  [1m[36mService Load (0.2ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/services/index.html.erb:6
+  Rendered services/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1762)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.9ms | Allocations: 1385)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.4ms | Allocations: 13249)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"categories"}, missing required keys: [:id]):
+    27:         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    28:           <%= link_to "Crear", new_category_path, class: "dropdown-item" %>
+    29:           <!--<a class="dropdown-item" href="#">Crear</a>-->
+    30:           <%= link_to "Listar", category_path, class: "dropdown-item" %>
+    31:           <!--<a class="dropdown-item" href="#">Listar</a>-->                   
+    32:         </div>
+    33:       </li>
+  
+app/views/layouts/_nav_bar.html.erb:30
+app/views/layouts/application.html.erb:14
+Started GET "/services" for ::1 at 2020-05-21 21:44:17 -0500
+Processing by ServicesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering services/index.html.erb within layouts/application
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/services/index.html.erb:6
+  Rendered services/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1550)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.4ms | Allocations: 1027)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.2ms | Allocations: 11398)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"categories"}, missing required keys: [:id]):
+    27:         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    28:           <%= link_to "Crear", new_category_path, class: "dropdown-item" %>
+    29:           <!--<a class="dropdown-item" href="#">Crear</a>-->
+    30:           <%= link_to "Listar", category_path, class: "dropdown-item" %>
+    31:           <!--<a class="dropdown-item" href="#">Listar</a>-->                   
+    32:         </div>
+    33:       </li>
+  
+app/views/layouts/_nav_bar.html.erb:30
+app/views/layouts/application.html.erb:14
+Started GET "/services" for ::1 at 2020-05-21 21:44:17 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ServicesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering services/index.html.erb within layouts/application
+  [1m[36mService Load (0.2ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/services/index.html.erb:6
+  Rendered services/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1745)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.5ms | Allocations: 1027)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.4ms | Allocations: 32616)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"categories"}, missing required keys: [:id]):
+    27:         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    28:           <%= link_to "Crear", new_category_path, class: "dropdown-item" %>
+    29:           <!--<a class="dropdown-item" href="#">Crear</a>-->
+    30:           <%= link_to "Listar", category_path, class: "dropdown-item" %>
+    31:           <!--<a class="dropdown-item" href="#">Listar</a>-->                   
+    32:         </div>
+    33:       </li>
+  
+app/views/layouts/_nav_bar.html.erb:30
+app/views/layouts/application.html.erb:14
+Started GET "/services" for ::1 at 2020-05-21 21:44:17 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ServicesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering services/index.html.erb within layouts/application
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/services/index.html.erb:6
+  Rendered services/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 2856)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.6ms | Allocations: 1027)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.2ms | Allocations: 58053)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"categories"}, missing required keys: [:id]):
+    27:         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    28:           <%= link_to "Crear", new_category_path, class: "dropdown-item" %>
+    29:           <!--<a class="dropdown-item" href="#">Crear</a>-->
+    30:           <%= link_to "Listar", category_path, class: "dropdown-item" %>
+    31:           <!--<a class="dropdown-item" href="#">Listar</a>-->                   
+    32:         </div>
+    33:       </li>
+  
+app/views/layouts/_nav_bar.html.erb:30
+app/views/layouts/application.html.erb:14
+Started GET "/services" for ::1 at 2020-05-21 21:44:29 -0500
+Processing by ServicesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering services/index.html.erb within layouts/application
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/services/index.html.erb:6
+  Rendered services/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1761)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 1.0ms | Allocations: 750)
+  Rendered layouts/_errors.html.erb (Duration: 0.3ms | Allocations: 126)
+Completed 200 OK in 17ms (Views: 14.2ms | ActiveRecord: 0.2ms | Allocations: 12890)
+
+
+Started GET "/services" for ::1 at 2020-05-21 21:44:30 -0500
+Processing by ServicesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering services/index.html.erb within layouts/application
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/services/index.html.erb:6
+  Rendered services/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1555)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.5ms | Allocations: 392)
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 11ms (Views: 8.3ms | ActiveRecord: 0.2ms | Allocations: 10860)
+
+
+Started GET "/services" for ::1 at 2020-05-21 21:44:30 -0500
+Processing by ServicesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering services/index.html.erb within layouts/application
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/services/index.html.erb:6
+  Rendered services/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1548)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.4ms | Allocations: 386)
+  Rendered layouts/_errors.html.erb (Duration: 0.0ms | Allocations: 21)
+Completed 200 OK in 14ms (Views: 11.2ms | ActiveRecord: 0.3ms | Allocations: 10843)
+
+
+Started GET "/categories/new" for ::1 at 2020-05-21 21:44:31 -0500
+  
+ActionController::RoutingError (uninitialized constant CategoriesController
+Did you mean?  CategoryController):
+  
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:92:in `rescue in controller_class_for'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/categories/new" for ::1 at 2020-05-21 21:45:13 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+AbstractController::ActionNotFound (The action 'new' could not be found for CategoriesController):
+  
+actionpack (6.0.3) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/categories/new" for ::1 at 2020-05-21 21:45:14 -0500
+  
+AbstractController::ActionNotFound (The action 'new' could not be found for CategoriesController):
+  
+actionpack (6.0.3) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/categories/new" for ::1 at 2020-05-21 21:45:14 -0500
+  
+AbstractController::ActionNotFound (The action 'new' could not be found for CategoriesController):
+  
+actionpack (6.0.3) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/categories/new" for ::1 at 2020-05-21 21:45:31 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CategoriesController#new as HTML
+Completed 406 Not Acceptable in 3ms (ActiveRecord: 0.0ms | Allocations: 2442)
+
+
+  
+ActionController::MissingExactTemplate (CategoriesController#new is missing a template for request formats: text/html):
+  
+actionpack (6.0.3) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.3) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/categories/new" for ::1 at 2020-05-21 21:46:31 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CategoriesController#new as HTML
+Completed 406 Not Acceptable in 15ms (ActiveRecord: 0.5ms | Allocations: 7558)
+
+
+  
+ActionController::MissingExactTemplate (CategoriesController#new is missing a template for request formats: text/html):
+  
+actionpack (6.0.3) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.3) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/categories/new" for ::1 at 2020-05-21 21:46:50 -0500
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  Rendered categories/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 83)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 1.6ms | Allocations: 762)
+  Rendered layouts/_errors.html.erb (Duration: 0.2ms | Allocations: 126)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 9796)
+
+
+Started GET "/categories/new" for ::1 at 2020-05-21 21:46:51 -0500
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  Rendered categories/new.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.6ms | Allocations: 406)
+  Rendered layouts/_errors.html.erb (Duration: 0.0ms | Allocations: 21)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 7919)
+
+
+Started GET "/categories/new" for ::1 at 2020-05-21 21:46:51 -0500
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  Rendered categories/new.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.5ms | Allocations: 395)
+  Rendered layouts/_errors.html.erb (Duration: 0.0ms | Allocations: 21)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 7910)
+
+
+Started GET "/categories" for ::1 at 2020-05-21 21:46:55 -0500
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  Rendered categories/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 83)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.7ms | Allocations: 406)
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 8113)
+
+
+Started GET "/categories" for ::1 at 2020-05-21 21:48:25 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  Rendered categories/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 80)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 3.0ms | Allocations: 762)
+  Rendered layouts/_errors.html.erb (Duration: 0.4ms | Allocations: 126)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 9719)
+
+
+Started GET "/categories" for ::1 at 2020-05-21 21:48:26 -0500
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  Rendered categories/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.6ms | Allocations: 406)
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 7905)
+
+
+Started GET "/categories" for ::1 at 2020-05-21 21:48:26 -0500
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  Rendered categories/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 395)
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 7888)
+
+
+Started GET "/categories" for ::1 at 2020-05-21 21:48:27 -0500
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  Rendered categories/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 1.4ms | Allocations: 395)
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 7896)
+
+
+Started GET "/categories/new" for ::1 at 2020-05-21 21:48:28 -0500
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  Rendered categories/new.html.erb within layouts/application (Duration: 5.1ms | Allocations: 924)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.6ms | Allocations: 393)
+  Rendered layouts/_errors.html.erb (Duration: 0.0ms | Allocations: 23)
+Completed 200 OK in 55ms (Views: 17.1ms | ActiveRecord: 0.9ms | Allocations: 14975)
+
+
+Started GET "/categories/new" for ::1 at 2020-05-21 21:49:50 -0500
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  Rendered categories/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 3164)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 1.1ms | Allocations: 748)
+  Rendered layouts/_errors.html.erb (Duration: 0.4ms | Allocations: 126)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 12768)
+
+
+Started GET "/categories/new" for ::1 at 2020-05-21 21:52:55 -0500
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  Rendered categories/new.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1955)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 3367)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x00007fa9c90350c8>::City):
+     5:     <%= f.text_field :name %>
+     6:     <%= f.label :service %>
+     7:     
+     8:     <% cities_array = City.all.map { |city| [city.name, city.id] } %>
+     9:     <%= options_for_select(cities_array) %>
+    10:     <%= f.submit "Guardar" %>   
+    11: <% end  %>
+  
+app/views/categories/new.html.erb:8
+app/views/categories/new.html.erb:3
+Started GET "/categories/new" for ::1 at 2020-05-21 21:53:29 -0500
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  [1m[36mService Load (0.3ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/categories/new.html.erb:8:in `map'
+  Rendered categories/new.html.erb within layouts/application (Duration: 8.4ms | Allocations: 5083)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 1.6ms | Allocations: 748)
+  Rendered layouts/_errors.html.erb (Duration: 0.3ms | Allocations: 126)
+Completed 200 OK in 25ms (Views: 22.2ms | ActiveRecord: 0.8ms | Allocations: 14806)
+
+
+Started GET "/categories/new" for ::1 at 2020-05-21 21:55:08 -0500
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  [1m[36mService Load (0.2ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/categories/new.html.erb:8
+  Rendered categories/new.html.erb within layouts/application (Duration: 10.7ms | Allocations: 4005)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.8ms | Allocations: 748)
+  Rendered layouts/_errors.html.erb (Duration: 0.2ms | Allocations: 126)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.2ms | Allocations: 13614)
+
+
+Started GET "/categories/new" for ::1 at 2020-05-21 21:55:09 -0500
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/categories/new.html.erb:8
+  Rendered categories/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1556)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.6ms | Allocations: 393)
+  Rendered layouts/_errors.html.erb (Duration: 0.0ms | Allocations: 21)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.1ms | Allocations: 9458)
+
+
+Started POST "/categories" for ::1 at 2020-05-21 21:55:17 -0500
+Processing by CategoriesController#create as JS
+  Parameters: {"authenticity_token"=>"tGJH08Q0cn5goFehGjxUWy1U6fGaJLS1Q/fI8JZBu5Bu+gcC0GLHorFl7qkSGW3yG5fUOdDW1ah760xs7KqsYQ==", "category"=>{"name"=>"category 1", "service_id"=>"1"}, "commit"=>"Guardar"}
+No template found for CategoriesController#create, rendering head :no_content
+Completed 204 No Content in 3ms (ActiveRecord: 0.0ms | Allocations: 2461)
+
+
+Started GET "/categories/new" for ::1 at 2020-05-21 21:58:34 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  [1m[36mService Load (0.3ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/categories/new.html.erb:8
+  Rendered categories/new.html.erb within layouts/application (Duration: 7.7ms | Allocations: 4980)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.5ms | Allocations: 397)
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 24ms (Views: 14.4ms | ActiveRecord: 1.3ms | Allocations: 18996)
+
+
+Started GET "/categories/new" for ::1 at 2020-05-21 21:58:35 -0500
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  [1m[36mService Load (0.2ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/categories/new.html.erb:8
+  Rendered categories/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1548)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.6ms | Allocations: 386)
+  Rendered layouts/_errors.html.erb (Duration: 0.0ms | Allocations: 21)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.2ms | Allocations: 9451)
+
+
+Started GET "/categories/new" for ::1 at 2020-05-21 21:58:35 -0500
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/categories/new.html.erb:8
+  Rendered categories/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1548)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.5ms | Allocations: 386)
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 21)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.1ms | Allocations: 9439)
+
+
+Started POST "/categories" for ::1 at 2020-05-21 21:58:37 -0500
+Processing by CategoriesController#create as JS
+  Parameters: {"authenticity_token"=>"HHfn1WWNjInkmlHWZOCDTybYvS0qEqw+W11Y0KVUO+nG76cEcds5VTVf6N5sxbrmEBuA5WDgzSNjQdxM378sGA==", "category"=>{"name"=>"casa", "service_id"=>"1"}, "commit"=>"Guardar"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:9:in `create'
+  [1m[36mService Load (0.2ms)[0m  [1m[34mSELECT "services".* FROM "services" WHERE "services"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:9:in `create'
+  [1m[36mCategory Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? AND "categories"."service_id" = ? LIMIT ?[0m  [["name", "casa"], ["service_id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:9:in `create'
+  [1m[36mCategory Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "casa"], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:9:in `create'
+  [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO "categories" ("name", "service_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "casa"], ["service_id", 1], ["created_at", "2020-05-22 02:58:37.681652"], ["updated_at", "2020-05-22 02:58:37.681652"]]
+  ↳ app/controllers/categories_controller.rb:9:in `create'
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:9:in `create'
+Redirected to http://localhost:3000/categories
+Completed 200 OK in 14ms (ActiveRecord: 2.8ms | Allocations: 9144)
+
+
+Started GET "/categories" for ::1 at 2020-05-21 21:58:37 -0500
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  Rendered categories/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 80)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_nav_bar.html.erb (Duration: 0.6ms | Allocations: 406)
+  Rendered layouts/_errors.html.erb (Duration: 0.1ms | Allocations: 25)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 8125)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]

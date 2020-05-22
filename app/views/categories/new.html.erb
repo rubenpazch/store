@@ -1,0 +1,10 @@
+<h1>Create a category</h1>
+
+<%= form_with(model: @category)  do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <%= f.label :service %>
+    
+    <%= f.collection_select(:service_id, Service.all, :id, :name) %>
+    <%= f.submit "Guardar" %>   
+<% end  %>
